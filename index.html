@@ -1,0 +1,41 @@
+<!--#include virtual="/init.html" -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <base href="/spa-demo/">
+        <title>SPA Demo</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="DESCRIPTION OF THE GAME">
+        <meta name="keywords" content="fun,games,yes,play,webgame">
+        <meta property="og:type" content="game">
+        <meta property="og:title" content="spatastic-spastic-spa">
+        <meta property="og:url" content="PRODUCTION URL OF THE GAME">
+        <meta property="og:site_name" content="NAME OF PRODUCTION WEBSITE">
+        <meta property="og:description" content="DESCRIPTION OF THE GAME">
+        <meta property="og:image" content="URL TO A THUMBNAIL OF THE GAME">
+        <meta property="og:updated_time" content="2019-09-18T14:27:50.429Z">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="spatastic-spastic-spa">
+        <meta name="twitter:description" content="DESCRIPTION OF THE GAME">
+        <meta name="twitter:image" content="URL TO A THUMBNAIL OF THE GAME">
+
+        <!--#include virtual="/chrome/$locale/head.html" -->
+    </head>
+    <body>
+        <!--#include virtual="/chrome/$locale/header.html" -->
+
+        <h1>Demo of some PatternFly Elements and three.js</h1>
+        <h2>pfe-avatar</h2>
+        <pfe-avatar pfe-name="spandx"></pfe-avatar>
+        <h2>pfe-icon</h2>
+        <pfe-icon size="xl" icon="rh-aed"></pfe-icon>
+        <h2>three.js scene</h2>
+        <canvas id="scene"></canvas>
+
+        <!--#include virtual="/chrome/$locale/footer.html" -->
+
+        <script type="text/javascript" src="vendors~app.bundle.js"></script><script type="text/javascript" src="app.bundle.js"></script>
+    </body>
+</html>
